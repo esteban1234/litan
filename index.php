@@ -108,6 +108,48 @@
    <h1 class="text-center" style="color: #fff; margin-top: 5%;">SERVICIOS</h1>
   <hr>
 <br><br>
+
+<div class="container" style="text-align: center;">
+    <div class="dos" >
+      <h1>Construción de Casas</h1>
+      <figure class="servicios1">
+        
+      </figure>
+    </div>
+    <div class="  dos" >
+      <h1>Construción de Oficinas</h1>
+      <figure class="servicios2">
+        
+      </figure>
+    </div>
+    <div class="  dos" >
+      <h1>Construción de Hoteles</h1>
+      <figure class="servicios3">
+        
+      </figure>
+    </div>
+  </div> <br><br>
+
+  <div class="container" style="text-align: center; margin-bottom: 5%;">
+    <div class="  dos" >
+      <h1>Construción de Comercios</h1>
+      <figure class="servicios4">
+        
+      </figure>
+    </div>
+    <div class="  dos" >
+      <h1>Levantamiento Arquitectónico</h1>
+      <figure class="servicios5">
+        
+      </figure>
+    </div>
+    <div class="  dos" >
+      <h1>Diseño de planos Arquitectónicos</h1>
+      <figure class="servicios6">
+        
+      </figure>
+    </div>
+  </div>
  </div>
 </section>
 
@@ -115,6 +157,79 @@
   <h1 class="text-center" style="color: #327E7E; margin-top: 5%;">CONTACTO</h1>
   <hr>
 <br><br>
+<div class="mapa">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1910.0525320082488!2d-93.12509459711748!3d16.771447681667976!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ecd8c276b07699%3A0x860543dd363bcf7f!2sSanta+Rosa+205%2C+San+Pedro+Popular%2C+29039+Tuxtla+Guti%C3%A9rrez%2C+Chis.!5e0!3m2!1ses-419!2smx!4v1508424930683" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+</div>
+<br><br>
+<div class="container">
+  <h2>Formulario de contacto</h2>
+  <p>Escribenos tus comentarios, dudas o preguntas, estamos para servirte.</p>
+  <div class="row">
+    <form role="form" id="contact-form" class="contact-form" method="post">
+                    <div class="row">
+                    <div class="col-md-4">
+                      <div class="form-group">
+                            <input type="text" class="form-control" name="Name" autocomplete="off" id="Name" placeholder="Escribe tu nombre completo" required="">
+                      </div>
+                    </div>
+                      <div class="col-md-4">
+                      <div class="form-group">
+                            <input type="email" class="form-control" name="email" autocomplete="off" id="email" placeholder="Escribe tu correo" required="">
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="form-group">
+                            <input type="text" class="form-control" name="tel" autocomplete="off" id="tel" placeholder="Escribe tu número teléfonico" required="">
+                      </div>
+                    </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-12">
+                      <div class="form-group">
+                            <textarea class="form-control textarea" rows="3" name="Message" id="Message" placeholder="Escribe tus comentarios" required=""></textarea>
+                      </div>
+                    </div>
+                    </div>
+                    <div class="row">
+                    <div class="col-md-12">
+                  <button type="submit" class="btn main-btn pull-right">ENVIAR MENSAJE</button>
+                  </div>
+                  </div>
+                </form>
+  </div>
+</div>
+<br><br>
+
+<div class="container" style="text-align: center;">
+    <div class="tres" >
+      <h1>Dirección</h1>
+      <div class="icono">
+        <i class="fa fa-street-view fa-5x" aria-hidden="true"></i>
+      </div> <br> 
+      <p>C. Santa Rosa #205-C por Av. San Antonio. Tuxtla Gutierrez, Chiapas. C.P. 29049</p>
+    </div>
+    <div class="  tres" >
+      <h1>Horario</h1>
+      <div class="icono">
+        <i class="fa fa-clock-o fa-5x" aria-hidden="true"></i>
+      </div> <br> 
+      <p>Lunes a Viernes de 9 am a 6 pm</p>
+    </div>
+    <div class="  tres" >
+      <h1>Correo</h1>
+      <div class="icono">
+        <i class="fa fa-envelope fa-5x" aria-hidden="true"></i>
+      </div> <br> 
+      <p>info@construccioneslitan.com</p>
+    </div>
+     <div class="  tres" >
+      <h1>Teléfono</h1>
+      <div class="icono">
+        <i class="fa fa-phone fa-5x" aria-hidden="true"></i>
+      </div> <br> 
+      <p>PENDIENTE</p>
+    </div>
+  </div> 
 </section>
 
 <footer>

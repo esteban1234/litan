@@ -95,6 +95,7 @@ hr{
   /*padding: 20px;*/
   float: left;
   margin-left: 7%;
+  height: 380px;
 }
 .uno h1{
   background-color: #327E7E;
@@ -117,59 +118,146 @@ hr{
 	width: 100%;
 	overflow: hidden;
 	position: relative;
-height:535px;
+/*height:600px;*/
+height: auto;
 background: url('../img/banners.jpg') center;
 background-size: cover;
 background-repeat: no-repeat;
 background-attachment: fixed;
-	/*padding: 9% 0% 9% 0%;*/
+	/*padding: 0% 0% 9% 0%;*/
 	/*background-color: #373736;*/
 }
 .fondo2{
 position: relative;
 width: 100%;
-height:535px;
+height:auto;
 background-color: rgba(0,0,0,.5);
 overflow: hidden;
+padding: 0% 0% 0% 0%;
 }
-/*.banners{
-position: relative;
+.dos{
+  width: 25%;
+  /*border: 1px #327E7E solid;*/
+  /*text-align: center;*/
+  background-color: #fff;
+  float: left;
+  margin-left: 7%;
+  height: 380px;
+}
+.dos h1{
+  background-color: #327E7E;
+  color: #fff;
+  padding: 20px 0px;
+  margin-top: 0px;
+}
+.dos:hover{
+  background:  #b2babb ;
+}
+.servicios1{
+/*position: relative;*/
 width: 100%;
-height:235px;
-background: url('../img/servicios.jpg') center;
+height:252px;
+background: url('../img/casas.jpg') center;
 background-size: cover;
 background-repeat: no-repeat;
-background-attachment: fixed;
+/*background-attachment: fixed;*/
  overflow: hidden;
 }
-.fondo2{
-position: relative;
+.servicios2{
+/*position: relative;*/
 width: 100%;
-height:235px;
-background-color: rgba(0,0,0,.5);
-overflow: hidden;
-}*/
-
-
-
-
+height:252px;
+background: url('../img/oficina.jpg') center;
+background-size: cover;
+background-repeat: no-repeat;
+/*background-attachment: fixed;*/
+ overflow: hidden;
+}
+.servicios3{
+/*position: relative;*/
+width: 100%;
+height:252px;
+background: url('../img/hotel.jpg') center;
+background-size: cover;
+background-repeat: no-repeat;
+/*background-attachment: fixed;*/
+ overflow: hidden;
+}
+.servicios4{
+/*position: relative;*/
+width: 100%;
+height:252px;
+background: url('../img/comercios.png') center;
+background-size: cover;
+background-repeat: no-repeat;
+/*background-attachment: fixed;*/
+ overflow: hidden;
+}
+.servicios5{
+/*position: relative;*/
+width: 100%;
+height:252px;
+background: url('../img/levantamiento.jpg') center;
+background-size: cover;
+background-repeat: no-repeat;
+/*background-attachment: fixed;*/
+ overflow: hidden;
+}
+.servicios6{
+/*position: relative;*/
+width: 100%;
+height:252px;
+background: url('../img/planos.jpg') center;
+background-size: cover;
+background-repeat: no-repeat;
+/*background-attachment: fixed;*/
+ overflow: hidden;
+}
 .seccion3{
 	width: 100%;
 	overflow: hidden;
 	/*border: 2px red solid;*/
-	padding: 0% 0% 3% 0%;
+	padding: 5% 0% 3% 0%;
 }
-/*.bannerc{
-position: relative;
-width: 100%;
-height:235px;
-background: url('../img/bannerc.jpg') center;
-background-size: cover;
-background-repeat: no-repeat;
-background-attachment: fixed;
- overflow: hidden;
-}*/
-
+.mapa{
+  width: 100%;
+}
+.mapa iframe{
+  width: 100%;
+}
+.contact-form{ margin-top:15px;}
+.contact-form .textarea{ min-height:220px; resize:none;}
+.form-control{ box-shadow:none; border-color:#00b09c; height:49px;}
+.form-control:focus{ box-shadow:none; border-color:red;}
+.form-control-feedback{ line-height:50px;}
+.main-btn{ background:#327E7E; border-color:#327E7E; color:#fff;}
+.main-btn:hover{ background:#00a491;color:#fff;}
+.form-control-feedback {
+line-height: 50px;
+top: 0px;
+}
+.tres{
+  width: 20%;
+  /*border: 1px #327E7E solid;*/
+  /*text-align: center;*/
+  background-color: #fff;
+  float: left;
+  margin-left: 4%;
+  height: 280px;
+}
+.tres h1{
+  background-color: #327E7E;
+  color: #fff;
+  padding: 20px 0px;
+  margin-top: 0px;
+}
+.tres:hover{
+  background:  #b2babb ;
+}
+.icono{
+  text-align: center;
+  color: #327E7E;
+}
 /*--------------FOOTER----------*/
 footer{
   width: 100%;
