@@ -24,6 +24,11 @@ header{
   margin: 0 auto;
   margin-bottom: 2%;
 }
+
+.op-menu, .logo-aux{
+  display: none;
+}
+
 .nav{
   margin-top: 4%;
 }

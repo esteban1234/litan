@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsivo.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> -->
     <script src="js/general.js"></script>
 
 
@@ -37,7 +37,7 @@
 
     <header id="INICIO">
       <div class="contenmenu">
-        <ul class="nav" style="float: left;">
+        <ul class="nav nav-izq" style="float: left;">
           <a data-scroll href="#INICIO" aria-pressed="true">INICIO</a>
           <a data-scroll href="#NOSOTROS" aria-pressed="true">NOSOTROS</a>
         </ul>
@@ -49,6 +49,13 @@
           <a data-scroll href="#CONTACTO" aria-pressed="true">CONTACTO</a>
         </ul>
       </div>
+       <div class="op-menu">
+        <i class="fa fa-bars fa-2x abrir" aria-hidden="true"></i>
+      </div>
+       <figure class="logo-aux">
+          <img src="img/litan.png" alt="LITAN" class="img-responsive">
+      </figure>
+
     </header>
 
 
@@ -67,10 +74,10 @@
   <span class="ir-arriba"><i class="fa fa-arrow-up" aria-hidden="true"></i></span>
 
 <section class="seccion1" id="NOSOTROS">
-  <h1 class="text-center" style="color: #327E7E;">QUIENES SOMOS</h1>
+  <h1 class="text-center tit-qs" style="color: #327E7E;">QUIENES SOMOS</h1>
   <hr>
 <br><br>
-  <div class="container" style="text-align: center;">
+  <div class="container uno-cont" style="text-align: center;">
     <div class="uno">
       <h1>MISION</h1>
       <p>Brindar soluciones innovadoras a nuestros clientes, ofrecer oportunidades de desarrollo personal y profesional para nuestros empleados, teniendo metas claras sobre nuestra responsabilidad social, y generar valor agregado a la compañía para satisfacer los objetivos de los accionistas, a través de la excelencia en la gestión integral de nuestras obras y servicios.</p>
@@ -88,8 +95,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-5 col-md-offset-1" >
-            <img src="img/nosotros.jpg"
-            class="img-responsive">
+            <img src="img/nosotros.jpg" class="img-responsive img-cons">
           </div>
           <div class="col-md-5">
             <p class="texto">CONSTRUCCIONES LITAN S.A. de C.V. es una empresa de ingeniería y construcciones que brinda a sus clientes un sistema integral de soluciones, abarcando todos los servicios necesarios para la materialización, puesta en marcha y mantenimiento de obras. <br><br>
@@ -105,11 +111,11 @@
 
 <section class="seccion2" id="SERVICIOS">
  <div class="fondo2">
-   <h1 class="text-center" style="color: #fff; margin-top: 5%;">SERVICIOS</h1>
+   <h1 class="text-center tit-qs" style="color: #fff; margin-top: 5%;">SERVICIOS</h1>
   <hr>
 <br><br>
 
-<div class="container" style="text-align: center;">
+<div class="container dos-txt" style="text-align: center;">
     <div class="dos" >
       <h1>Construción de Casas</h1>
       <figure class="servicios1">
@@ -154,7 +160,7 @@
 </section>
 
 <section class="seccion3" id="CONTACTO">
-  <h1 class="text-center" style="color: #327E7E; margin-top: 5%;">CONTACTO</h1>
+  <h1 class="text-center tit-qs" style="color: #327E7E; margin-top: 5%;">CONTACTO</h1>
   <hr>
 <br><br>
 <div class="mapa">
@@ -162,37 +168,38 @@
 </div>
 <br><br>
 <div class="container">
-  <h2>Formulario de contacto</h2>
-  <p>Escribenos tus comentarios, dudas o preguntas, estamos para servirte.</p>
+  <h2 class="tit-form">Formulario de contacto</h2>
+  <p class="text-form">Escribenos tus comentarios, dudas o preguntas, estamos para servirte.</p>
   <div class="row">
-    <form role="form" id="contact-form" class="contact-form" method="post">
+    <form role="form" id="contact-form" class="contact-form" method="post" onSubmit="return false">
                     <div class="row">
                     <div class="col-md-4">
                       <div class="form-group">
-                            <input type="text" class="form-control" name="Name" autocomplete="off" id="Name" placeholder="Escribe tu nombre completo" required="">
+                            <input type="text" class="form-control" name="Name" autocomplete="off" id="txtNOMBRE" placeholder="Escribe tu nombre completo" required="">
                       </div>
                     </div>
                       <div class="col-md-4">
                       <div class="form-group">
-                            <input type="email" class="form-control" name="email" autocomplete="off" id="email" placeholder="Escribe tu correo" required="">
+                            <input type="email" class="form-control" name="email" autocomplete="off" id="txtCORREO" placeholder="Escribe tu correo" required="">
                       </div>
                     </div>
                     <div class="col-md-4">
                       <div class="form-group">
-                            <input type="text" class="form-control" name="tel" autocomplete="off" id="tel" placeholder="Escribe tu número teléfonico" required="">
+                            <input type="text" class="form-control" name="tel" autocomplete="off" id="txtTELEFONO" placeholder="Escribe tu número teléfonico" required="">
                       </div>
                     </div>
                     </div>
                     <div class="row">
                       <div class="col-md-12">
                       <div class="form-group">
-                            <textarea class="form-control textarea" rows="3" name="Message" id="Message" placeholder="Escribe tus comentarios" required=""></textarea>
+                            <textarea class="form-control textarea" rows="3" name="Message" id="txtCOMENTARIO" placeholder="Escribe tus comentarios" required=""></textarea>
                       </div>
                     </div>
                     </div>
                     <div class="row">
+                    <div id="_AJAX_PRE_" class="col-md-12"></div>
                     <div class="col-md-12">
-                  <button type="submit" class="btn main-btn pull-right">ENVIAR MENSAJE</button>
+                  <button type="submit" class="btn main-btn pull-right" onclick="sendCORREO()">ENVIAR MENSAJE</button>
                   </div>
                   </div>
                 </form>
@@ -235,14 +242,13 @@
 <footer>
 <p>Derechos de autor 2017 © | CONSTRUCCIONES LITAN S.A. DE C.V.</p>
 </footer>
-
+    <script src="js/jquery.js"></script>
     <script src="js/sendCORREO.js"></script>
+    <script src="js/menu.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" integrity="sha384-3ceskX3iaEnIogmQchP8opvBy3Mi7Ce34nWjpBIwVTHfGYWQS9jwHDVRnpKKHJg7" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js" integrity="sha384-XTs3FgkjiBgo8qjEjBk0tGmf3wPrWtA6coPfQDfFEY8AnYJwjalXCiosYRBIBZX8" crossorigin="anonymous"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.js"></script>
     <script src="js/arriba.js"></script>
-    <script src="js/bootstrap.js"></script>
-    <script src="js/menu.js"></script>
+    <!-- <script src="js/bootstrap.js"></script> -->
   </body>
 </html>
